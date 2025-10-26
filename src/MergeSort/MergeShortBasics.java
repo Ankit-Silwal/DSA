@@ -23,13 +23,10 @@ public class MergeShortBasics {
     int k=0;
     while(i<first.length&&j<second.length){
       if(first[i]<second[j]){
-        mix[k]=first[i];
-        i++;
+        mix[k++]=first[i++];
       }else{
-        mix[k]=second[j];
-        j++;
+        mix[k++]=second[j++];
       }
-      k++;
     } 
     while(i<first.length){
       mix[k]=first[i];
