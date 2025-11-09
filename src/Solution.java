@@ -1,43 +1,58 @@
-import java.util.Arrays;
-
+import java.util.Scanner;
 public class Solution {
   public static void main(String[] args) {
-    boolean[][] arr={
-      {true,true,true},
-      {true,true,true},
-      {true,true,true}
-    };
-    int [][] path=new int[arr.length][arr[0].length];
-    path("",0,0,arr,path,1);
-  }
-  static void path(String p,int r,int c,boolean[][] arr,int[][] path,int step){
-    if(r==arr.length-1 && c==arr[0].length-1){
-      path[r][c]=step;
-      for (int[] arrrows:path){
-        System.out.println(Arrays.toString(arrrows));
+    System.out.println("Enter the number of queen / n*n of board and n<=9");
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    boolean[][] matrix=new boolean[n][n];
+    for(int i=0;i<n;i++){
+      for(int j=0;j<n;j++){
+        matrix[i][j]=true;
       }
-      System.out.println(p);
-      System.out.println("\n \n");
+    }
+    int[][] places=new int[n][n];
+    Nqueen(0,0,matrix,places,0);
+  }
+  static void Nqueen(int r,int c,boolean[][] matrix,int[][] places,int placed){
+    if(placed==matrix.length){
       return;
     }
-    if(!arr[r][c]){
+    if(!matrix[r][c]){
       return;
     }
-    arr[r][c]=false;
-    path[r][c]=step;
-    if(r<path.length-1){
-      path(p+"D",r+1,c,arr,path,step+1);
+    places[r][c]=1;
+    if(r<matrix.length-1){
+      for(int i=0;i<matrix.length-1;i++){
+        matrix[r][i]=false;
+        matrix[i][c]=false;
+      }
+      Nqueen(r+1, c, matrix, places, placed+1);
     }
-    if(c<path[0].length-1){
-      path(p+"R",r,c+1,arr,path,step+1);
-    }
-    if(c>0){
-      path(p+"L",r,c-1,arr,path,step+1);
+    if(c<matrix[0].length-1){
+      for(int i=0;i<matrix.length-1;i++){
+        matrix[r][i]=false;
+        matrix[i][c]=false;
+      }
+      Nqueen(r, c+1, matrix, places, placed+1);
     }
     if(r>0){
-      path(p+"U",r-1,c,arr,path,step+1);
+      Nqueen(r-1, c, matrix, places, placed+1);
     }
-    path[r][c]=0;  //Using the concept of heap and stack all the values are set to 0 and true respectively
-    arr[r][c]=true;
+    if(c>0){
+      Nqueen(r, c-1, matrix, places, placed+1);
+    }
+    if(r<matrix[0].length-1 && c<matrix[0].length-1){
+      int tr=r,tc=c;
+      while(tr<matrix.length && tc < matrix.length){
+        matrix[tr++][tc--]=false;
+      }
+      
+      tr=r;
+      tc=c;
+      while(tr<matrix.length && tc<matrix.length){
+        matrix[tr--][tc++]=false;
+      }
+    }
+
   }
 }

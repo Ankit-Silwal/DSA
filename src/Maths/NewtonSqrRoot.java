@@ -1,3 +1,5 @@
+package maths;
+
 //This methond isnt that good for small numbers but gives fine for the larger number
 package Maths;
 
@@ -18,3 +20,4 @@ public class NewtonSqrRoot {
     return root;
   }
 }
+

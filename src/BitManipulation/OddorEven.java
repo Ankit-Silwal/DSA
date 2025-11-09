@@ -1,4 +1,5 @@
-package BitManipulation;
+package bitmanipulation;
+
 import java.util.Scanner;
 public class OddorEven {
   public static void main(String[] args) {

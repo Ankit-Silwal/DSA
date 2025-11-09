@@ -1,4 +1,4 @@
-package MazeProblems;
+package mazeproblems;
 
 import java.util.ArrayList;
 

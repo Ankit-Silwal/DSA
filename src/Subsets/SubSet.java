@@ -1,4 +1,5 @@
-package Subsets;
+package subsets;
+
 import java.util.ArrayList;
 import java.util.List;
 public class SubSet {

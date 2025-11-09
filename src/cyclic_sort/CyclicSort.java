@@ -1,4 +1,4 @@
-package LinearSearch;
+package cyclicsort;
 
 import java.util.Arrays;
 

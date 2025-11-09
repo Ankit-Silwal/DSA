@@ -1,4 +1,5 @@
-package Permutaions;
+package permutations;
+
 import java.util.ArrayList;
 
 public class DiceProblem {

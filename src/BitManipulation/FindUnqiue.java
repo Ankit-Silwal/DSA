@@ -1,4 +1,4 @@
-package BitManipulation;
+package bitmanipulation;
 
 public class FindUnqiue {
   public static void main(String[] args) {

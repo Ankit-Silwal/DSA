@@ -1,4 +1,4 @@
-package RecursionPatterns;
+package recursionpatterns;
 
 public class RecursionTriangle {
   public static void main(String[] args) {

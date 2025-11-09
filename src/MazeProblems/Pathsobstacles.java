@@ -1,4 +1,4 @@
-package MazeProblems;
+package mazeproblems;
 
 public class Pathsobstacles {
   public static void main(String[] args) {

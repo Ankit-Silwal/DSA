@@ -1,3 +1,5 @@
+package backtracking;
+
 //Here i will try to implement the logic for the diagonal too represnted by small "d" will code completly for the 
 //purpose of practice
 package BackTracking;
@@ -47,3 +49,4 @@ public class PathMatrixDiawithObs {
     paths[r][c]=0;
   }
 }
+

@@ -1,4 +1,5 @@
-  package Subsets;
+package subsets;
+
 import java.util.ArrayList;
 public class SubSeqArrayList {
   public static void main(String[] args) {

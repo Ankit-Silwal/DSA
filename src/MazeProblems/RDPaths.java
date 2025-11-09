@@ -1,4 +1,5 @@
-package MazeProblems;
+package mazeproblems;
+
 import java.util.ArrayList;
 public class RDPaths {
     public static void main(String[] args) {

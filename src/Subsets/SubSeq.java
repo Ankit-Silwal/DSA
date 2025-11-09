@@ -1,4 +1,5 @@
-package Subsets;
+package subsets;
+
 public class SubSeq{
   public static void main(String[] args) {
     subseq("","abcdef");

@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 
 public class FunRev {
   public static void main(String[] Args){

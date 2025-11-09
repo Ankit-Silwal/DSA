@@ -1,4 +1,4 @@
-package Permutaions;
+package permutations;
 
 public class countpermutaion {
   public static void main(String[] args) {

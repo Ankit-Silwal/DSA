@@ -1,4 +1,5 @@
-package MazeProblems;
+package mazeproblems;
+
 public class AllDir {
   public static void main(String[] args) {
     boolean[][] arr = {

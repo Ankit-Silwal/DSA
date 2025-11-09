@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 
 public class SkipaChar {
   public static void main(String[] args) {

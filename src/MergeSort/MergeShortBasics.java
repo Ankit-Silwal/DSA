@@ -1,4 +1,4 @@
-package MergeSort;
+package mergesort;
 
 import java.util.Arrays;
 

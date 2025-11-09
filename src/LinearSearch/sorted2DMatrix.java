@@ -1,4 +1,5 @@
-package LinearSearch;
+package linearsearch;
+
 import java.util.Arrays;
 
 public class sorted2DMatrix {

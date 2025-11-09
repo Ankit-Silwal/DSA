@@ -1,4 +1,4 @@
-package Maths;
+package maths;
 
 public class PrimeSeive {
   public static void main(String[] args) {

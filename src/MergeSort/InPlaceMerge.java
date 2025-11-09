@@ -1,4 +1,4 @@
-package MergeSort;
+package mergesort;
 
 public class InPlaceMerge {
   public static void main(String[] args) {

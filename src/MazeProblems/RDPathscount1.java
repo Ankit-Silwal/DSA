@@ -1,4 +1,4 @@
-package MazeProblems;
+package mazeproblems;
 
 public class RDPathscount1 {
   public static void main(String[] args) {

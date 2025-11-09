@@ -1,4 +1,4 @@
-package SearchBuilder;
+package searchbuilder;
 
 public class Practice {
   public static void main(String [] args){
