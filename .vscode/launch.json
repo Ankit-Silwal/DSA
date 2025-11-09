@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Main",
+        "request": "launch",
+        "mainClass": "oop.staticexample.Main",
+        "projectName": "DSA with java_55da7db"
+      },
+      {
+        "name": "Launch Current File",
+        "type": "java",
+        "request": "launch",
+        "mainClass": "${file}",
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Debug Current File",
+        "type": "java",
+        "request": "launch",
+        "mainClass": "${file}",
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "stopOnEntry": false
+      }
+    ]
+}
