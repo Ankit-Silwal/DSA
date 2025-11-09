@@ -9,7 +9,7 @@ public class PathMatrix {
       {true, true, true},
       {true, true, true},
     };
-    int[][] path = new int[arr.length][arr[0].length];
+    int[][] path = new int[arr.length][arr[0].length]; //default value will be 0 for each elements
     allPaths("", arr, 0, 0, path, 1);
   }
 
