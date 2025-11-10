@@ -13,5 +13,25 @@ in inheritance the this is used to specify the data within the class while super
 ~
 Types of inheritance:
 1.Single inheritance:One class extends another class
+
 2.Multilevel Inheritance:Once class can exteends to another class and that antoher class itself can be parent for 
 another third class this is the multilevel inheritance.
+
+3.Multiple inheritance:(Is in other languages but not it java)
+When one class is extending to more than one class is called multiple inheritance
+Suppose classes A,B and C 
+Here B inherits the property of A and C 
+hence the B is the example of multiple inheritance.
+(Not supported in java.if two or more varaiable have  same property the java will get confused)
+
+We can do its major work using inteference!
+
+4.Hierarchial Inheritance:
+One class is inheritate by many classes
+supposed classes A,B,C,D and B,C,D inherits fromn A ,this is the example of Hierarchial Inheritance
+B,C,D has property of A but not of each others
+
+5.Hybrid inheritance:(Not in java we will cover it in interfaces using other concept but not avaible easily and simply)
+It is the combination of single and multiplication inheriance
+
+//We can acieve the properties of multliple inheritance and hybrid inhertance using the propery of inteference
