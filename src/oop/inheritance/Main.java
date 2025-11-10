@@ -6,5 +6,7 @@ public class Main {
     // System.out.println(parent.l+" "+parent.w+" "+parent.h);
     child child=new child();
     System.out.println(child.l+" "+child.weight);
+    child2 mini=new child2(5,8,5);
+    System.out.println(mini.cost);
   }
 }

@@ -7,3 +7,11 @@ class child extends Base(Parent class){
  
 }
 here child will have his own property but it will also inherit all the properties of the base(Parent class)
+
+in inheritance the this is used to specify the data within the class while super is used to get from the parent element
+
+~
+Types of inheritance:
+1.Single inheritance:One class extends another class
+2.Multilevel Inheritance:Once class can exteends to another class and that antoher class itself can be parent for 
+another third class this is the multilevel inheritance.
