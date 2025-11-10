@@ -1,0 +1,9 @@
+IT is just llike parents where the traits of parents are passed to the children element this is called elements.The children 
+can use the things of parents class and this is the interitance.
+It allows you to create a new class from an existing class, reusing code and extending functionality instead of writing it 
+from scratch.
+we use extends keyboard like
+class child extends Base(Parent class){
+ 
+}
+here child will have his own property but it will also inherit all the properties of the base(Parent class)

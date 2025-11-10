@@ -5,6 +5,20 @@
         "type": "java",
         "name": "Main",
         "request": "launch",
+        "mainClass": "oop.inheritance.Main",
+        "projectName": "DSA with java_55da7db"
+      },
+      {
+        "type": "java",
+        "name": "StaticBlock",
+        "request": "launch",
+        "mainClass": "oop.staticexample.StaticBlock",
+        "projectName": "DSA with java_55da7db"
+      },
+      {
+        "type": "java",
+        "name": "Main",
+        "request": "launch",
         "mainClass": "oop.staticexample.Main",
         "projectName": "DSA with java_55da7db"
       },
