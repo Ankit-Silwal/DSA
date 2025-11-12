@@ -3,6 +3,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "NqueenProblem",
+        "request": "launch",
+        "mainClass": "backtracking.NqueenProblem",
+        "projectName": "DSA with java_55da7db"
+      },
+      {
+        "type": "java",
         "name": "Main",
         "request": "launch",
         "mainClass": "Main",
